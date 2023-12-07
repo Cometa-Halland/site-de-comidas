@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas</title>
+    <link rel="stylesheet" href="comida.css">
+</head>
+
+<body>
+    <header class="topo">
+        <h1>Receitas Paraguaias</h1>
+    </header>
+    <div class="tela">
+        <section class="sec1">
+            <header>Ingredientes</header>
+            <br>
+            <div class="select">
+                <input checked type="radio" name="ingred" id="rec1">
+                <label for="rec1">Óleo, Farinha, Ovos e leite</label><br><br>
+                <input type="radio" name="ingred" id="rec2">
+                <label for="rec2">Manteiga, Cebola, Cenoura, Caldo de galinha</label><br><br>
+                <input type="radio" name="ingred" id="rec3">
+                <label for="rec3">Milho, Leite, Cebola, Ovo, Óleo</label><br><br>
+                <input type="radio" name="ingred" id="rec4">
+                <label for="rec4">Queijo paraguaio, Amido de Mandioca, Manteiga</label><br><br>
+                <input type="radio" name="ingred" id="rec5">
+                <label for="rec5">Frango, Alho, Cebola, Cenoura</label>
+            </div>
+
+        </section>
+        <div onmouseenter="entrar()" class="setinha"><img src="download.png" alt="" id="setaimg" style="width: 50px; height: 40px;
+        margin-top: 10px;"></div>
+        <section class="sec2">
+            <header>Receita</header>
+            <br>
+            <div class="divimg">
+                <img src="" alt="" id="imgcomida">
+                <p id="comidadescrip"></p>
+            </div>
+
+        </section>
+    </div>
+    <footer>&copy;Klayvert</footer>
+    <script src="comida.js"></script>
+</body>
+
+</html>
